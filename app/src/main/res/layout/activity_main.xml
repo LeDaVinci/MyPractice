@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wanghang.mypractice.MainActivity">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TableRow>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/top"
+                android:text="singletop"/>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/task"
+                android:text="singletask"/>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/instance"
+                android:text="singleinstance"/>
+        </TableRow>
+        
+        <TableRow>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/top2"
+                android:text="singletop2"/>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/task2"
+                android:text="singletask2"/>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/instance2"
+                android:text="singleinstance2"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
